@@ -1,0 +1,19 @@
+{
+  "name": "japanese-municipalities-consolidation",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "kamataryo <kamataryo@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "iconv-lite": "^0.6.3",
+    "isomorphic-unfetch": "^3.1.0"
+  },
+  "scripts": {
+    "build": "rm -rf api && node bin/build.js"
+  },
+  "dependencies": {
+    "@geolonia/normalize-japanese-addresses": "^2.5.1"
+  }
+}
